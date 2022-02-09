@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-image: url("https://image.freepik.com/vetores-gratis/estilo-de-gradiente-de-fundo-de-efeito-de-meio-tom_23-2148233994.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+  text-align: center;
+  color: #fff;
+  margin: 150px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container-global{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-gradient-1{
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(45deg, #22c1c3, #fdbb2d, #3a77d6);
+  background-size: 300% 300%; 
+  animation: colors 15s ease infinite;
+}
+
+.card-gradient-2{
+  width: 100vw;
+  height: 50vh;
+  background-image: url("https://c.tenor.com/oJk1Ofb5aHQAAAAC/dragon-ball-z-dragon-ball.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-gradient-3{
+  width: 100vw;
+  height: 50vh;
+  background-image: url("https://images.pexels.com/photos/2086748/pexels-photo-2086748.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-gradient-4{
+  width: 100vw;
+  height: 50vh;
+  background-image: url("https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-gradient-5{
+  width: 100vw;
+  height: 50vh;
+  background-image: url("https://c.tenor.com/HUwalV-hiDkAAAAC/demon-slayer.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-gradient-6{
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(50deg, #e631d9, #1f716f, #d01826);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+.card-gradient-7{
+  width: 100vw;
+  height: 50vh;
+  background: rgb(69,57,49);
+  background: radial-gradient(circle, rgba(69,57,49,1) 16%, rgba(195,113,113,0.9487179487179487) 34%, rgba(94,90,90,1) 48%, rgba(45,46,45,0.9839286056219363) 54%, rgba(33,41,35,0.9430199430199431) 88%);
+}
+.card-gradient-8{
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(286deg, #3f5efb, #fc466b);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+.card-gradient-9{
+  width: 100vw;
+  height: 50vh;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(119,140,190,1) 9%, rgba(169,180,136,1) 12%, rgba(213,216,88,1) 19%, rgba(219,193,91,1) 27%, rgba(223,178,93,1) 40%, rgba(225,170,94,1) 48%, rgba(228,158,96,1) 58%, rgba(252,70,107,1) 100%); 
+}
+.card-gradient-10{
+  width: 100vw;
+  height: 50vh;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,8,31,1) 0%, rgba(93,98,5,1) 30%, rgba(0,212,255,1) 100%);
+}
+.card-gradient-11{
+  width: 100vw;
+  height: 50vh;
+  background: rgb(19,7,222);
+  background: radial-gradient(circle, rgba(19,7,222,1) 0%, rgba(168,59,5,1) 0%, rgba(0,212,255,1) 26%, rgba(125,240,154,0.537037037037037) 30%, rgba(80,114,41,1) 63%);
+}
+.card-gradient-12{
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(45deg, #1307de, #a83b05, #00d4ff, #7df09a, #322972);
+  background-size: 300% 300%; 
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
